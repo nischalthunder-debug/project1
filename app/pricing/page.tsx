@@ -43,7 +43,7 @@ export default function PricingPage() {
                 </li>
               ))}
             </ul>
-            <a href="/api/pricing" style={{
+            <a href="#contact-sales" style={{
               display:'block', textAlign:'center', padding:'0.75rem',
               background: plan.recommended ? '#0ea5e9' : '#334155',
               color:'white', borderRadius:'8px', fontWeight:600, fontSize:'0.875rem',
@@ -55,7 +55,7 @@ export default function PricingPage() {
         ))}
       </div>
 
-      <div className="card" style={{maxWidth:520}}>
+      <div className="card" style={{maxWidth:520}} id="contact-sales">
         <div className="section-title">Contact Sales</div>
         <p style={{fontSize:'0.875rem', color:'#64748b', marginBottom:'1.25rem'}}>
           Need a custom plan? Submit your details and we will be in touch.
