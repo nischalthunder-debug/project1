@@ -1,6 +1,6 @@
 {
-  "name": "project2",
-  "version": "0.1.0",
+  "name": "sentinelmesh",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,7 +16,9 @@
   "devDependencies": {
     "@types/node": "25.5.0",
     "@types/react": "19.2.14",
+    "@types/react-dom": "^18.2.0",
     "eslint": "^8",
-    "eslint-config-next": "^14.0.0"
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
   }
 }
